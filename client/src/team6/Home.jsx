@@ -1,13 +1,11 @@
+import Login from "../layout/Login";
+
 const Home = () => {
-  return (
-    <div className="w-full">
-      <h1 className="text-2xl font-bold">Team 6 Home</h1>
-      <p className="mt-2 text-gray-600">
-        Team 6 frontend is running. Use the team navigation/login pages for authentication.
-      </p>
-    </div>
-  );
+
+    return <div>
+        <h1>Team 5 Home</h1>
+        <Login />
+    </div>;
 };
 
 export default Home;
-
